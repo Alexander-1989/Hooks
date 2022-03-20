@@ -19,6 +19,7 @@ namespace Hooks
             {
                 System.Diagnostics.Process.Start("https://github.com/");
             }
+
             base.WndProc(ref m);
         }
 
